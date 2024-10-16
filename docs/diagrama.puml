@@ -1,4 +1,4 @@
-@startuml
+@startuml foco
 
 class Usuario
 class Mascota{

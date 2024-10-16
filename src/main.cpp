@@ -1,13 +1,13 @@
 #include <iostream>
-#include <string>
-using namespace std;
+#include <Porcentaje.hpp>
 
-int main (){
+int main()
+{
+  Porcentaje foco1, foco2, foco3;
 
-string si;
+  foco1.Incrementar(10);
+  foco1.Incrementar(10);
+  foco1.Disminuir(4);
 
-    cout<<"Angel me la saborea?"<<endl;
-    cin>>si;
-  //std::cout<<"Angel me la chupa"<<std::endl;
-
+  std::cout << "Foco1: " << foco1.Imprimir() << std::endl;
 }
