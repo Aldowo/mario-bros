@@ -17,7 +17,7 @@ focos.emplace_back(foco3);
 
 
 for (auto &&f : focos){
-f.Incrementar
+f.Incrementar(10);
 
 }
 

@@ -1,5 +1,11 @@
 @startuml foco
 
+package std{
+class List
+class Vector
+
+}
+
 class Usuario
 class Mascota{
     +Pasear()
