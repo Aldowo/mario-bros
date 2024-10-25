@@ -27,7 +27,7 @@ public:
         }
     }
 
-    char Imprimir()
+    void Imprimir()
     {
             for (auto &&focoActual : focos)
             {

@@ -48,11 +48,11 @@ public:
     {
     if(this->encendido)
     {
-        return "*";
+        return '*';
     }
     else{
 
-        return "o";
+        return 'o';
     }
     }
 };
