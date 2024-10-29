@@ -29,6 +29,7 @@ public:
 
     void Imprimir()
     {
+        
             for (auto &&focoActual : focos)
             {
                 std::cout << focoActual.Imprimir() <<"-";
