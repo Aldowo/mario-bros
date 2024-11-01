@@ -19,8 +19,15 @@ int main(int argc, char const *argv[])
     can.DrawPointLine(40,35,47,45);
     can.DrawPointCircle(47,45,5);
     can.DrawPointLine(40,35,40,30);
-    can.DrawPointLine(38,32,43,28);
-    can.DrawPointLine(20,35,20,31);
+    can.DrawPointLine(38,32,43,28); //maniublo
+    can.DrawPointLine(20,35,20,29); //Asiento
+    can.DrawPointLine(13,45,25,43);
+    can.DrawPointLine(25,43,20,35);
+    can.DrawPointLine(25,43,40,35);
+    can.DrawPointLine(20,29,23,29);
+    can.DrawPointLine(20,29,23
+    ,29);
+   
 
     while (true)
     {
