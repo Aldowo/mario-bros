@@ -16,6 +16,5 @@ ejecutar2:: bin/animacion
 ejecutar3:: bin/prueba
 	./bin/prueba
 
-
 clean : bin/programa
 	rm bin/programa
